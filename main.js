@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
 		const task = input.value;
 
 		if(task.charAt(0)==='!'){
-			console.log("AAA")
+			console.log("Changing video")
 			const youtube = document.getElementById("youtubePlayer")
 			youtube.src=(task.substring(1)+"?autoplay=1&mute=1&loop=1")
 		}
